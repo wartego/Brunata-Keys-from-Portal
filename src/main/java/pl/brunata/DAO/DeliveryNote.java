@@ -1,17 +1,32 @@
 package pl.brunata.DAO;
 
-import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 
+import lombok.*;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
+import javax.xml.bind.annotation.*;
+import java.util.List;
+
+@ToString
+@Setter
+@XmlRootElement(name = "DeliveryNote")
+//@XmlAccessorType(XmlAccessType.PROPERTY)
 public class DeliveryNote {
-    @JacksonXmlProperty(localName = "DeliveryHead")
-    private DeliveryHead deliveryHead;
-    @JacksonXmlProperty(localName = "Devices")
-    private Devices devices;
+
+
+    private DeliveryHead DeliveryHead;
+//    @XmlElement (name ="Devices")
+//    private Devices Devices;
+
+    private List<Device> devices;
+    @XmlElement (name ="DeliveryHead")
+    public pl.brunata.DAO.DeliveryHead getDeliveryHead() {
+        return DeliveryHead;
+    }
+    @XmlElementWrapper(name = "Devices")
+    @XmlElement (name = "Device")
+    public List<Device> getDevices() {
+        return devices;
+    }
+
+
 }

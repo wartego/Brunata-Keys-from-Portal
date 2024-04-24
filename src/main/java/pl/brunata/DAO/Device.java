@@ -1,18 +1,22 @@
 package pl.brunata.DAO;
 
-import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 
-import java.util.List;
+import lombok.ToString;
+
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
 
+@ToString
+@XmlRootElement(name = "Device")
 public class Device {
-    @JacksonXmlProperty(localName = "MainDevice")
+
     public MainDevice MainDevice;
+
+
+    @XmlElement (name ="MainDevice")
+    public pl.brunata.DAO.MainDevice getMainDevice() {
+        return MainDevice;
+    }
 }

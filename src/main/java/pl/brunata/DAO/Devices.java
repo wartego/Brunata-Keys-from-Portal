@@ -1,20 +1,23 @@
-package pl.brunata.DAO;
-
-import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper;
-import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-import java.util.ArrayList;
-import java.util.List;
-
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-
-public class Devices {
-    @JacksonXmlProperty(localName = "Device")
-
-    private List<Device> Device;
-}
+//package pl.brunata.DAO;
+//
+//
+//import lombok.AllArgsConstructor;
+//import lombok.Data;
+//import lombok.NoArgsConstructor;
+//
+//import javax.xml.bind.annotation.XmlElement;
+//import javax.xml.bind.annotation.XmlElementWrapper;
+//import javax.xml.bind.annotation.XmlRootElement;
+//import java.util.ArrayList;
+//import java.util.List;
+//
+//@Data
+//@NoArgsConstructor
+//@AllArgsConstructor
+//@XmlRootElement(name = "Devices")
+//public class Devices {
+//
+//    @XmlElementWrapper(name ="Devices")
+//    @XmlElement(name ="Device")
+//    private List<Device> Device;
+//}

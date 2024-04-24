@@ -1,20 +1,29 @@
 package pl.brunata.DAO;
 
 
-import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 
+import lombok.*;
+
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 import java.util.Date;
 
-
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
+@ToString
+@Setter
+@XmlRootElement(name = "DeliveryHead")
 public class DeliveryHead {
-    @JacksonXmlProperty(localName = "DeliveryNoteNo" ,isAttribute = true)
-    private int deliveryNoteNo;
-    @JacksonXmlProperty(localName = "DeliveryDate" ,isAttribute = true)
-    private Date deliveryDate;
+
+
+    private int DeliveryNoteNo;
+
+    private Date DeliveryDate;
+    @XmlAttribute (name ="DeliveryNoteNo")
+    public int getDeliveryNoteNo() {
+        return DeliveryNoteNo;
+    }
+    @XmlAttribute (name ="DeliveryDate")
+    public Date getDeliveryDate() {
+        return DeliveryDate;
+    }
 }
