@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DeliveryNotes Version="1.0">
+  <DeliveryNote>
+    <DeliveryHead DeliveryNoteNo="123456" DeliveryDate="2024-04-24" />
+    <Devices>
+      <Device>
+        <MainDevice ZennerShortDescription="WMZ C5-IUF BNT 3,5 260 KST5 5,2 ODVPP10" ZennerMaterialNo="167309" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="LoRa" RadioProtocolMode="LoRa" PulseValue="" PrintedSerialNo="6ZRI8911318705" PermanentFlow="" PacketType="STANDARD" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="04b6480000000000" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="04b6488911318705" Cycle="" CustomerMaterialNo="" Connection="G1?B / DN 25" CommandVersion="" AppSKey="" AppKey="96A1B2A60A174759161EA793B5CBD407" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="WMZ C5-IUF BNT 3,5 260 KST5 5,2 ODVPP10" ZennerMaterialNo="167309" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="LoRa" RadioProtocolMode="LoRa" PulseValue="" PrintedSerialNo="6ZRI8911318706" PermanentFlow="" PacketType="STANDARD" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="04b6480000000000" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="04b6488911318706" Cycle="" CustomerMaterialNo="" Connection="G1?B / DN 25" CommandVersion="" AppSKey="" AppKey="0EA7C2B6447D146A8E26580A5805DE5D" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="WMZ C5-IUF BNT 3,5 260 KST5 5,2 ODVPP10" ZennerMaterialNo="167309" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="LoRa" RadioProtocolMode="LoRa" PulseValue="" PrintedSerialNo="6ZRI8911318707" PermanentFlow="" PacketType="STANDARD" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="04b6480000000000" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="04b6488911318707" Cycle="" CustomerMaterialNo="" Connection="G1?B / DN 25" CommandVersion="" AppSKey="" AppKey="5BE8F82CEB1881BB36795FCD50B8D543" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="WMZ C5-IUF BNT 3,5 260 KST5 5,2 ODVPP10" ZennerMaterialNo="167309" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="LoRa" RadioProtocolMode="LoRa" PulseValue="" PrintedSerialNo="6ZRI8911318708" PermanentFlow="" PacketType="STANDARD" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="04b6480000000000" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="04b6488911318708" Cycle="" CustomerMaterialNo="" Connection="G1?B / DN 25" CommandVersion="" AppSKey="" AppKey="1421158FDFEE9E27BBEE4C79D0F640B4" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="WMZ C5-IUF BNT 3,5 260 KST5 5,2 ODVPP10" ZennerMaterialNo="167309" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="LoRa" RadioProtocolMode="LoRa" PulseValue="" PrintedSerialNo="6ZRI8911318709" PermanentFlow="" PacketType="STANDARD" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="04b6480000000000" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="04b6488911318709" Cycle="" CustomerMaterialNo="" Connection="G1?B / DN 25" CommandVersion="" AppSKey="" AppKey="D0CA45F4A5F104C2B85AD592A0DBDF20" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="WMZ C5-IUF BNT 3,5 260 KST5 5,2 ODVPP10" ZennerMaterialNo="167309" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="LoRa" RadioProtocolMode="LoRa" PulseValue="" PrintedSerialNo="6ZRI8911318710" PermanentFlow="" PacketType="STANDARD" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="04b6480000000000" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="04b6488911318710" Cycle="" CustomerMaterialNo="" Connection="G1?B / DN 25" CommandVersion="" AppSKey="" AppKey="4B969C8834100FDE24FDC6E77668E1A0" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="WMZ C5-IUF BNT 3,5 260 KST5 5,2 ODVPP10" ZennerMaterialNo="167309" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="LoRa" RadioProtocolMode="LoRa" PulseValue="" PrintedSerialNo="6ZRI8911318711" PermanentFlow="" PacketType="STANDARD" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="04b6480000000000" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="04b6488911318711" Cycle="" CustomerMaterialNo="" Connection="G1?B / DN 25" CommandVersion="" AppSKey="" AppKey="4A95FBC285CD3774EB7E4B8665570E38" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="WMZ C5-IUF BNT 3,5 260 KST5 5,2 ODVPP10" ZennerMaterialNo="167309" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="LoRa" RadioProtocolMode="LoRa" PulseValue="" PrintedSerialNo="6ZRI8911318712" PermanentFlow="" PacketType="STANDARD" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="04b6480000000000" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="04b6488911318712" Cycle="" CustomerMaterialNo="" Connection="G1?B / DN 25" CommandVersion="" AppSKey="" AppKey="B3C68E3E11555CF892410413539CE7A3" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="WMZ C5-IUF BNT 3,5 260 KST5 5,2 ODVPP10" ZennerMaterialNo="167309" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="LoRa" RadioProtocolMode="LoRa" PulseValue="" PrintedSerialNo="6ZRI8911318713" PermanentFlow="" PacketType="STANDARD" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="04b6480000000000" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="04b6488911318713" Cycle="" CustomerMaterialNo="" Connection="G1?B / DN 25" CommandVersion="" AppSKey="" AppKey="7C949D767B763906C41893436F620239" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="WMZ C5-IUF BNT 3,5 260 KST5 5,2 ODVPP10" ZennerMaterialNo="167309" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="LoRa" RadioProtocolMode="LoRa" PulseValue="" PrintedSerialNo="6ZRI8911318714" PermanentFlow="" PacketType="STANDARD" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="04b6480000000000" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="04b6488911318714" Cycle="" CustomerMaterialNo="" Connection="G1?B / DN 25" CommandVersion="" AppSKey="" AppKey="1C5C4EB62E074B39D937E8B21A5E69CA" AES_Key="" />
+      </Device>
+    </Devices>
+  </DeliveryNote>
+</DeliveryNotes>

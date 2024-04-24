@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DeliveryNotes Version="1.0">
+  <DeliveryNote>
+    <DeliveryHead DeliveryNoteNo="123456" DeliveryDate="2024-04-24" />
+    <Devices>
+      <Device>
+        <MainDevice ZennerShortDescription="EDC-C MB+PULSE MODE U O1L" ZennerMaterialNo="140869" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="1 Ltr/I" PrintedSerialNo="EZRI0252070811" PermanentFlow="" PacketType="A" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="EDC-C MB+PULSE MODE U O1L" ZennerMaterialNo="140869" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="1 Ltr/I" PrintedSerialNo="EZRI0252070840" PermanentFlow="" PacketType="A" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+    </Devices>
+  </DeliveryNote>
+</DeliveryNotes>

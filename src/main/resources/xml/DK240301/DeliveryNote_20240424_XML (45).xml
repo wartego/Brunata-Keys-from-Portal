@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DeliveryNotes Version="1.0">
+  <DeliveryNote>
+    <DeliveryHead DeliveryNoteNo="123456" DeliveryDate="2024-04-24" />
+    <Devices>
+      <Device>
+        <MainDevice ZennerShortDescription="MTWD-N 4-190-3/4 R7 R80H40V CU 10L MSWB" ZennerMaterialNo="151701" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="10 Ltr/I" PrintedSerialNo="9ZRI0020054142" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTWD-N 4-190-3/4 R7 R80H40V CU 10L MSWB" ZennerMaterialNo="151701" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="10 Ltr/I" PrintedSerialNo="9ZRI0020054143" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTWD-N 4-190-3/4 R7 R80H40V CU 10L MSWB" ZennerMaterialNo="151701" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="10 Ltr/I" PrintedSerialNo="9ZRI0020054144" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTWD-N 4-190-3/4 R7 R80H40V CU 10L MSWB" ZennerMaterialNo="151701" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="10 Ltr/I" PrintedSerialNo="9ZRI0020054145" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTWD-N 4-190-3/4 R7 R80H40V CU 10L MSWB" ZennerMaterialNo="151701" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="10 Ltr/I" PrintedSerialNo="9ZRI0020054146" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTWD-N 4-190-3/4 R7 R80H40V CU 10L MSWB" ZennerMaterialNo="151701" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="10 Ltr/I" PrintedSerialNo="9ZRI0020054147" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTWD-N 4-190-3/4 R7 R80H40V CU 10L MSWB" ZennerMaterialNo="151701" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="10 Ltr/I" PrintedSerialNo="9ZRI0020054148" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTWD-N 4-190-3/4 R7 R80H40V CU 10L MSWB" ZennerMaterialNo="151701" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="10 Ltr/I" PrintedSerialNo="9ZRI0020054149" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTWD-N 4-190-3/4 R7 R80H40V CU 10L MSWB" ZennerMaterialNo="151701" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="10 Ltr/I" PrintedSerialNo="9ZRI0020054150" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTWD-N 4-190-3/4 R7 R80H40V CU 10L MSWB" ZennerMaterialNo="151701" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="10 Ltr/I" PrintedSerialNo="9ZRI0020054151" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTWD-N 4-190-3/4 R7 R80H40V CU 10L MSWB" ZennerMaterialNo="151701" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="10 Ltr/I" PrintedSerialNo="9ZRI0020054152" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTWD-N 4-190-3/4 R7 R80H40V CU 10L MSWB" ZennerMaterialNo="151701" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="10 Ltr/I" PrintedSerialNo="9ZRI0020054153" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTWD-N 4-190-3/4 R7 R80H40V CU 10L MSWB" ZennerMaterialNo="151701" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="10 Ltr/I" PrintedSerialNo="9ZRI0020054154" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTWD-N 4-190-3/4 R7 R80H40V CU 10L MSWB" ZennerMaterialNo="151701" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="10 Ltr/I" PrintedSerialNo="9ZRI0020054155" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTWD-N 4-190-3/4 R7 R80H40V CU 10L MSWB" ZennerMaterialNo="151701" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="10 Ltr/I" PrintedSerialNo="9ZRI0020054156" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTWD-N 4-190-3/4 R7 R80H40V CU 10L MSWB" ZennerMaterialNo="151701" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="10 Ltr/I" PrintedSerialNo="9ZRI0020054157" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTWD-N 4-190-3/4 R7 R80H40V CU 10L MSWB" ZennerMaterialNo="151701" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="10 Ltr/I" PrintedSerialNo="9ZRI0020054158" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTWD-N 4-190-3/4 R7 R80H40V CU 10L MSWB" ZennerMaterialNo="151701" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="10 Ltr/I" PrintedSerialNo="9ZRI0020054159" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTWD-N 4-190-3/4 R7 R80H40V CU 10L MSWB" ZennerMaterialNo="151701" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="10 Ltr/I" PrintedSerialNo="9ZRI0020054160" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTWD-N 4-190-3/4 R7 R80H40V CU 10L MSWB" ZennerMaterialNo="151701" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="10 Ltr/I" PrintedSerialNo="9ZRI0020054161" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+    </Devices>
+  </DeliveryNote>
+</DeliveryNotes>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DeliveryNotes Version="1.0">
+  <DeliveryNote>
+    <DeliveryHead DeliveryNoteNo="123456" DeliveryDate="2024-04-24" />
+    <Devices>
+      <Device>
+        <MainDevice ZennerShortDescription="LLLIUWS 16-150-6/4 ST R200 T50 CC 321 RK" ZennerMaterialNo="176313" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="8ZRI9961254082" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="LoRa" PulseValue="" PrintedSerialNo="8ZRI9961254082" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="04b6480000000000" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="04b6489961254082" Cycle="" CustomerMaterialNo="" Connection="" CommandVersion="" AppSKey="" AppKey="68F24E2A07EDD04E09317007043389DB" AES_Key="A83030C91EE2367E56E4A33163C94E9D" />
+      </Device>
+    </Devices>
+  </DeliveryNote>
+</DeliveryNotes>

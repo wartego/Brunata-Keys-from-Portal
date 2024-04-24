@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DeliveryNotes Version="1.0">
+  <DeliveryNote>
+    <DeliveryHead DeliveryNoteNo="123456" DeliveryDate="2024-04-24" />
+    <Devices>
+      <Device>
+        <MainDevice ZennerShortDescription="WMZ C5-IUF BNT2,5 KNT1,5 5,2AT1BRKVL 10" ZennerMaterialNo="167559" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="wMBusT1_B_5" PulseValue="" PrintedSerialNo="6ZRI8811214192" PermanentFlow="" PacketType="STANDARD" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="BBFB8DCC0CDE7BA4FE8290963B480994" />
+      </Device>
+    </Devices>
+  </DeliveryNote>
+</DeliveryNotes>

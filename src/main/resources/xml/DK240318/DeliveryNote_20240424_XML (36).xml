@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DeliveryNotes Version="1.0">
+  <DeliveryNote>
+    <DeliveryHead DeliveryNoteNo="123456" DeliveryDate="2024-04-24" />
+    <Devices>
+      <Device>
+        <MainDevice ZennerShortDescription="MTKD-N 4-190-3/4 R8 R40 R80H CU 1L" ZennerMaterialNo="141465" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="1 Ltr/I" PrintedSerialNo="8ZRI0070503241" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTKD-N 4-190-3/4 R8 R40 R80H CU 1L" ZennerMaterialNo="141465" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="1 Ltr/I" PrintedSerialNo="8ZRI0070503242" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTKD-N 4-190-3/4 R8 R40 R80H CU 1L" ZennerMaterialNo="141465" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="1 Ltr/I" PrintedSerialNo="8ZRI0070503243" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTKD-N 4-190-3/4 R8 R40 R80H CU 1L" ZennerMaterialNo="141465" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="1 Ltr/I" PrintedSerialNo="8ZRI0070503244" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTKD-N 4-190-3/4 R8 R40 R80H CU 1L" ZennerMaterialNo="141465" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="1 Ltr/I" PrintedSerialNo="8ZRI0070503245" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTKD-N 4-190-3/4 R8 R40 R80H CU 1L" ZennerMaterialNo="141465" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="1 Ltr/I" PrintedSerialNo="8ZRI0070503246" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTKD-N 4-190-3/4 R8 R40 R80H CU 1L" ZennerMaterialNo="141465" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="1 Ltr/I" PrintedSerialNo="8ZRI0070503247" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTKD-N 4-190-3/4 R8 R40 R80H CU 1L" ZennerMaterialNo="141465" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="1 Ltr/I" PrintedSerialNo="8ZRI0070503248" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTKD-N 4-190-3/4 R8 R40 R80H CU 1L" ZennerMaterialNo="141465" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="1 Ltr/I" PrintedSerialNo="8ZRI0070503249" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G1B / DN 20" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+    </Devices>
+  </DeliveryNote>
+</DeliveryNotes>

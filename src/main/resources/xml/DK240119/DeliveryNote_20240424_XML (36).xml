@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DeliveryNotes Version="1.0">
+  <DeliveryNote>
+    <DeliveryHead DeliveryNoteNo="123456" DeliveryDate="2024-04-24" />
+    <Devices>
+      <Device>
+        <MainDevice ZennerShortDescription="IUWS 25-300-2 R250 T50 DC 202" ZennerMaterialNo="183197" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="8ZRI9961245099" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="LoRa" PulseValue="" PrintedSerialNo="8ZRI9961245099" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="04b6480000000000" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="04b6489961245099" Cycle="" CustomerMaterialNo="" Connection="" CommandVersion="" AppSKey="" AppKey="A24FA1D674CFD34876A325D014A4892E" AES_Key="A2B5ECA1A2B5364BBC7A7099723BD580" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="IUWS 25-300-2 R250 T50 DC 202" ZennerMaterialNo="183197" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="8ZRI9961245098" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="LoRa" PulseValue="" PrintedSerialNo="8ZRI9961245098" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="04b6480000000000" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="04b6489961245098" Cycle="" CustomerMaterialNo="" Connection="" CommandVersion="" AppSKey="" AppKey="10C2038C44BBB0D3971464D5C3196071" AES_Key="F551F58947C5269CCCB522507133BFD9" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="IUWS 25-300-2 R250 T50 DC 202" ZennerMaterialNo="183197" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="8ZRI9961242765" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="LoRa" PulseValue="" PrintedSerialNo="8ZRI9961242765" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="04b6480000000000" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="04b6489961242765" Cycle="" CustomerMaterialNo="" Connection="" CommandVersion="" AppSKey="" AppKey="7B64EDD5C8FDBF6922021A4379148F37" AES_Key="C0A2588C9D44DC4751E953CCC39D3582" />
+      </Device>
+    </Devices>
+  </DeliveryNote>
+</DeliveryNotes>

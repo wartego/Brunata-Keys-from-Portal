@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DeliveryNotes Version="1.0">
+  <DeliveryNote>
+    <DeliveryHead DeliveryNoteNo="123456" DeliveryDate="2024-04-24" />
+    <Devices>
+      <Device>
+        <MainDevice ZennerShortDescription="PDC T1 A 1K off.Kabelende IP68 RK" ZennerMaterialNo="162467" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="WMBUS_T1" PulseValue="" PrintedSerialNo="EZRI0550017104" PermanentFlow="" PacketType="A" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="" CommandVersion="" AppSKey="" AppKey="" AES_Key="3FCD8DDB7F5F08A27CB0B4E4898A4071" />
+      </Device>
+    </Devices>
+  </DeliveryNote>
+</DeliveryNotes>

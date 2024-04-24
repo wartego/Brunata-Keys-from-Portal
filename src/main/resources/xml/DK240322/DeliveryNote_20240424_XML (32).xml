@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DeliveryNotes Version="1.0">
+  <DeliveryNote>
+    <DeliveryHead DeliveryNoteNo="123456" DeliveryDate="2024-04-24" />
+    <Devices>
+      <Device>
+        <MainDevice ZennerShortDescription="IUWS 10-260-5/4 R250 T50 DC 204 w.Filter" ZennerMaterialNo="183756" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="8ZRI9961261460" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="LoRa" PulseValue="" PrintedSerialNo="8ZRI9961261460" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="04b6480000000000" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="04b6489961261460" Cycle="" CustomerMaterialNo="" Connection="" CommandVersion="" AppSKey="" AppKey="E83F9D96CB365FF5AB6B6D82645EF0B0" AES_Key="ECE1E4ECF7EF53F7A3A40CCE689F5E8C" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="IUWS 10-260-5/4 R250 T50 DC 204 w.Filter" ZennerMaterialNo="183756" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="8ZRI9961261462" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="LoRa" PulseValue="" PrintedSerialNo="8ZRI9961261462" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="04b6480000000000" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="04b6489961261462" Cycle="" CustomerMaterialNo="" Connection="" CommandVersion="" AppSKey="" AppKey="2C05AF4BE9A45E08DE6FDD8E27C1E2CE" AES_Key="0EA23B442266CD34EB9FAB0E64B2F7A7" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="IUWS 10-260-5/4 R250 T50 DC 204 w.Filter" ZennerMaterialNo="183756" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="8ZRI9961261464" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="LoRa" PulseValue="" PrintedSerialNo="8ZRI9961261464" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="04b6480000000000" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="04b6489961261464" Cycle="" CustomerMaterialNo="" Connection="" CommandVersion="" AppSKey="" AppKey="FDDA34F8DDD14437BCAAAF6162E34420" AES_Key="CE9F35620832DDF55F6249695FF7B25E" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="IUWS 10-260-5/4 R250 T50 DC 204 w.Filter" ZennerMaterialNo="183756" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="8ZRI9961261474" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="LoRa" PulseValue="" PrintedSerialNo="8ZRI9961261474" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="04b6480000000000" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="04b6489961261474" Cycle="" CustomerMaterialNo="" Connection="" CommandVersion="" AppSKey="" AppKey="068BA3D5F80D79748D158F984745730D" AES_Key="1EF84E1C5D1813C5335DBA4ED0F6BC22" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="IUWS 10-260-5/4 R250 T50 DC 204 w.Filter" ZennerMaterialNo="183756" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="8ZRI9961261477" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="LoRa" PulseValue="" PrintedSerialNo="8ZRI9961261477" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="04b6480000000000" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="04b6489961261477" Cycle="" CustomerMaterialNo="" Connection="" CommandVersion="" AppSKey="" AppKey="6D0DCAE55871D908B9CBA9E80C8E44AE" AES_Key="36E1C1D8846E155635DF0A305040E287" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="IUWS 10-260-5/4 R250 T50 DC 204 w.Filter" ZennerMaterialNo="183756" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="8ZRI9961261481" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="LoRa" PulseValue="" PrintedSerialNo="8ZRI9961261481" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="04b6480000000000" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="04b6489961261481" Cycle="" CustomerMaterialNo="" Connection="" CommandVersion="" AppSKey="" AppKey="E88A79F92CBAF957E7F8F9B57E81A31A" AES_Key="80CA1CB6EA9459A9A885848F9DF5AF48" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="IUWS 10-260-5/4 R250 T50 DC 204 w.Filter" ZennerMaterialNo="183756" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="8ZRI9961261484" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="LoRa" PulseValue="" PrintedSerialNo="8ZRI9961261484" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="04b6480000000000" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="04b6489961261484" Cycle="" CustomerMaterialNo="" Connection="" CommandVersion="" AppSKey="" AppKey="A45E5A0612E4CE8F27874C441B2AC409" AES_Key="7A2CE4D81096C85E9C47B942B215B2E8" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="IUWS 10-260-5/4 R250 T50 DC 204 w.Filter" ZennerMaterialNo="183756" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="8ZRI9961261487" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="LoRa" PulseValue="" PrintedSerialNo="8ZRI9961261487" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="04b6480000000000" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="04b6489961261487" Cycle="" CustomerMaterialNo="" Connection="" CommandVersion="" AppSKey="" AppKey="4E998784E9FE175665C962F7B12FBDFA" AES_Key="65E353BFAA4C627DD4BFEDCF8CB9D309" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="IUWS 10-260-5/4 R250 T50 DC 204 w.Filter" ZennerMaterialNo="183756" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="8ZRI9961261489" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="LoRa" PulseValue="" PrintedSerialNo="8ZRI9961261489" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="04b6480000000000" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="04b6489961261489" Cycle="" CustomerMaterialNo="" Connection="" CommandVersion="" AppSKey="" AppKey="C721FD41D5078D47E46780657B4A63BF" AES_Key="A15942234E3A77878799AA90E0D52998" />
+      </Device>
+    </Devices>
+  </DeliveryNote>
+</DeliveryNotes>

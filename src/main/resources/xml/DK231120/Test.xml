@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DeliveryNotes Version="1.0">
+  <DeliveryNote>
+    <DeliveryHead DeliveryNoteNo="123456" DeliveryDate="2024-04-24" />
+    <Devices>
+      <Device>
+        <MainDevice ZennerShortDescription="APZ V2 30° 2,5-110-1/2 80H40V 202 ZR" ZennerMaterialNo="167080" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="8ZRI0170013410" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="LoRa" RadioProtocolMode="LoRa" PulseValue="1 Ltr/I" PrintedSerialNo="04B6481957113640" PermanentFlow="" PacketType="A" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="1.0.2" LoRaDeviceClass="" JoinEUI="04b6480000000000" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="04b6481957113640" Cycle="" CustomerMaterialNo="" Connection="G3/4B / DN 15" CommandVersion="" AppSKey="" AppKey="2A00003CF21DE8D9A1E249150D67A8A8" AES_Key="" />
+      </Device>
+    </Devices>
+  </DeliveryNote>
+</DeliveryNotes>

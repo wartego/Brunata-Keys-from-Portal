@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DeliveryNotes Version="1.0">
+  <DeliveryNote>
+    <DeliveryHead DeliveryNoteNo="123456" DeliveryDate="2024-04-24" />
+    <Devices>
+      <Device>
+        <MainDevice ZennerShortDescription="WMZ C5-IST ZR 1,5 KNT 1,5 5 I MB RL" ZennerMaterialNo="138061" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="0.00526316 Ltr/I" PrintedSerialNo="6ZRI8811245884" PermanentFlow="" PacketType="STANDARD" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="IST" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="WMZ C5-IST ZR 1,5 KNT 1,5 5 I MB RL" ZennerMaterialNo="138061" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="0.00526316 Ltr/I" PrintedSerialNo="6ZRI8811245885" PermanentFlow="" PacketType="STANDARD" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="IST" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="WMZ C5-IST ZR 1,5 KNT 1,5 5 I MB RL" ZennerMaterialNo="138061" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="0.00526316 Ltr/I" PrintedSerialNo="6ZRI8811245886" PermanentFlow="" PacketType="STANDARD" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="IST" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+    </Devices>
+  </DeliveryNote>
+</DeliveryNotes>

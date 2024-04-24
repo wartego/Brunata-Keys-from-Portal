@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DeliveryNotes Version="1.0">
+  <DeliveryNote>
+    <DeliveryHead DeliveryNoteNo="123456" DeliveryDate="2024-04-24" />
+    <Devices>
+      <Device>
+        <MainDevice ZennerShortDescription="MTWD-N 16-300-6/4 R7 R80H40V CU 10L MSWB" ZennerMaterialNo="152038" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="10 Ltr/I" PrintedSerialNo="9ZRI0020054598" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G2B / DN 40" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTWD-N 16-300-6/4 R7 R80H40V CU 10L MSWB" ZennerMaterialNo="152038" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="10 Ltr/I" PrintedSerialNo="9ZRI0020054599" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G2B / DN 40" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTWD-N 16-300-6/4 R7 R80H40V CU 10L MSWB" ZennerMaterialNo="152038" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="10 Ltr/I" PrintedSerialNo="9ZRI0020054600" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G2B / DN 40" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTWD-N 16-300-6/4 R7 R80H40V CU 10L MSWB" ZennerMaterialNo="152038" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="10 Ltr/I" PrintedSerialNo="9ZRI0020054601" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G2B / DN 40" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTWD-N 16-300-6/4 R7 R80H40V CU 10L MSWB" ZennerMaterialNo="152038" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="10 Ltr/I" PrintedSerialNo="9ZRI0020054602" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G2B / DN 40" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+      <Device>
+        <MainDevice ZennerShortDescription="MTWD-N 16-300-6/4 R7 R80H40V CU 10L MSWB" ZennerMaterialNo="152038" WaterMeterLength="" TempRange="" SubDeviceNr="0" SerialNoFull="" Scenario="" RollerDigits="" RadioTelegramType="" RadioTechnology="" RadioProtocolMode="" PulseValue="10 Ltr/I" PrintedSerialNo="9ZRI0020054603" PermanentFlow="" PacketType="" NwkSKey="" NetworkKey="" Manufacturer="" MAC_Address="" LoRaWAN_Version="" LoRaDeviceClass="" JoinEUI="" Item="20" Frequency="" DeviceAddr="" DeviceActivationMode="" DevEUI="" Cycle="" CustomerMaterialNo="" Connection="G2B / DN 40" CommandVersion="" AppSKey="" AppKey="" AES_Key="" />
+      </Device>
+    </Devices>
+  </DeliveryNote>
+</DeliveryNotes>
