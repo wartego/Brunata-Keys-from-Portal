@@ -1,15 +1,27 @@
 package pl.brunata.service;
 
+import lombok.RequiredArgsConstructor;
 import pl.brunata.dao.DeviceKeysDAO;
-import pl.brunata.entity.DevicesKeys;
-import pl.brunata.mapper.DeviceMapper;
+import pl.brunata.entity.DevicesKey;
 
-public class DeviceKeysService {
-    //private final DeviceKeysDAO deviceKeysDAO;
+import java.util.List;
 
-    //private final DeviceMapper deviceMapper;
+@RequiredArgsConstructor
+public class DevicesKeysService {
 
-public void create(DevicesKeys devicesKeys){
-    
-}
+    private final DeviceKeysDAO deviceKeysDAO = new DeviceKeysDAO();
+
+    public void create(DevicesKey devicesKey){
+        deviceKeysDAO.create(devicesKey);
+    }
+    public boolean existByDevEUI(DevicesKey devicesKey){
+        return deviceKeysDAO.existByDevEUI(devicesKey);
+    }
+    public boolean existByPrintedSerialNo(DevicesKey devicesKey){
+        return deviceKeysDAO.existByPrintedSerial(devicesKey);
+    }
+    public List<DevicesKey> getAllRows(){
+        return deviceKeysDAO.getAllRows();
+    }
+
 }

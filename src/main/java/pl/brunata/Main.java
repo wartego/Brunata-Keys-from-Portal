@@ -1,37 +1,98 @@
 package pl.brunata;
 
 
-import pl.brunata.DAO.DeliveryNotes;
-import pl.brunata.DAO.Device;
+import pl.brunata.controller.DevicesKeysController;
+import pl.brunata.csv.CsvFileWriter;
+import pl.brunata.csv.mcids.CsvFileMCIDGenerator;
+import pl.brunata.dao.DeviceKeysDAO;
+import pl.brunata.db.HibernateUtils;
+import pl.brunata.entity.DevicesKey;
+import pl.brunata.mapper.DeviceMapper;
+import pl.brunata.mapper.MCIDNumberEnum;
+import pl.brunata.service.DevicesKeysService;
+import pl.brunata.xmlservice.CollectAllKeys;
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.Unmarshaller;
-import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
+
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-        startParser();
+
+    public final static DeviceKeysDAO deviceKeysDAO = new DeviceKeysDAO();
+    public final static DeviceMapper deviceMapper = new DeviceMapper();
+    public final static DevicesKeysService devicesKeysService = new DevicesKeysService();
+    public final static DevicesKeysController devicesKeysController = new DevicesKeysController();
+
+
+
+
+    public static void main(String[] args) throws IOException {
+
+        HibernateUtils.getSessionFactory();
+
+        CollectAllKeys.getAllFilesFromPath();
+        CollectAllKeys.printCountAllRows();
+        createCSVFile();
+        createCSVFileForAllMCIDS();
+        createKeys();
+
+
+
     }
 
-    public static void startParser() {
-        try {
-            File file = new File("src/main/resources/xml/DK231120/DeliveryNote_20240424_XML (44).xml");
+    private static void createKeys(){
 
-            JAXBContext context = JAXBContext.newInstance(DeliveryNotes.class);
-            Unmarshaller un = context.createUnmarshaller();
-            DeliveryNotes deliveryNotes = (DeliveryNotes) un.unmarshal(file);
-//
-            //List<Device> deviceList = deliveryNotes.getDeliveryNote().getDevices().getDevice();
-            System.out.println(deliveryNotes);
-      //      deviceList.forEach(s -> System.out.println(s.getMainDevice().getSerialNoFull()));
-        } catch (JAXBException e) {
-            throw new RuntimeException(e);
-        }
+        getListWithoutRowsInDatabase();
+
+        CollectAllKeys.allMainDevices.forEach( s -> {
+            boolean exist = false;
+            boolean existDevEUI = s.getDevEUI() == null || !s.getDevEUI().equals("") || !s.getDevEUI().isEmpty();
+            boolean existPrintedSerialNo = s.getPrintedSerialNo() == null || !s.getPrintedSerialNo().equals("") || !s.getPrintedSerialNo().isEmpty();
+            if (existDevEUI){
+                exist = devicesKeysController.existByDevEUI(s);
+            } else if (existPrintedSerialNo){
+                exist = devicesKeysController.existByPrintedSerialNo(s);
+            }
+            if (!exist){
+                devicesKeysController.create(s);
+            }
+        });
+    }
+    private static void createCSVFile() throws IOException {
+        CsvFileWriter csvFileWriter = new CsvFileWriter();
+        csvFileWriter.csvWriterToFile(CollectAllKeys.allMainDevices);
+    }
+
+    private static void createCSVFileForAllMCIDS() throws IOException {
+
+        CsvFileMCIDGenerator csvFileMCIDGenerator = new CsvFileMCIDGenerator();
+
+        List<MCIDNumberEnum> allMCIDS = List.of(MCIDNumberEnum.values());
+        allMCIDS.forEach( s -> {
+            try {
+                csvFileMCIDGenerator.csvWriterToFile(CollectAllKeys.allMainDevices,s.getMcids(), s.getMcidNumber());
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        });
+    }
+
+
+    private static List<DevicesKey> getListWithoutRowsInDatabase(){
+
+
+        List<DevicesKey> listKeysFromFiles = new ArrayList<>(CollectAllKeys.allMainDevices.stream().map(i -> new DeviceMapper().map(i)).toList());
+        List<DevicesKey> listFromDatabase = devicesKeysController.getAllRows();
+
+         listFromDatabase.forEach(i-> i.setId(0));
+         listKeysFromFiles.removeAll(listFromDatabase);
+
+
+        return  listKeysFromFiles;
 
 
     }
+
+
 }

@@ -1,11 +1,10 @@
-package pl.brunata.DAO;
+package pl.brunata.xmlDAOmapper;
 
 
 
 import lombok.*;
 
 import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.util.Date;
 

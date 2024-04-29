@@ -1,4 +1,4 @@
-package pl.brunata.DAO;
+package pl.brunata.xmlDAOmapper;
 
 
 import lombok.*;
@@ -7,6 +7,7 @@ import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlRootElement;
+import java.util.Objects;
 
 @Setter
 @XmlRootElement(name = "MainDevice")
@@ -185,5 +186,18 @@ public class MainDevice {
     @XmlAttribute (name = "AES_Key")
     public String getAES_Key() {
         return AES_Key;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        MainDevice that = (MainDevice) o;
+        return Objects.equals(ZennerShortDescription, that.ZennerShortDescription) && Objects.equals(ZennerMaterialNo, that.ZennerMaterialNo) && Objects.equals(WaterMeterLength, that.WaterMeterLength) && Objects.equals(TempRange, that.TempRange) && Objects.equals(SubDeviceNr, that.SubDeviceNr) && Objects.equals(SerialNoFull, that.SerialNoFull) && Objects.equals(Scenario, that.Scenario) && Objects.equals(RollerDigits, that.RollerDigits) && Objects.equals(RadioTelegramType, that.RadioTelegramType) && Objects.equals(RadioTechnology, that.RadioTechnology) && Objects.equals(RadioProtocolMode, that.RadioProtocolMode) && Objects.equals(PulseValue, that.PulseValue) && Objects.equals(PrintedSerialNo, that.PrintedSerialNo) && Objects.equals(PermanentFlow, that.PermanentFlow) && Objects.equals(PacketType, that.PacketType) && Objects.equals(NwkSKey, that.NwkSKey) && Objects.equals(NetworkKey, that.NetworkKey) && Objects.equals(Manufacturer, that.Manufacturer) && Objects.equals(MAC_Address, that.MAC_Address) && Objects.equals(LoRaWAN_Version, that.LoRaWAN_Version) && Objects.equals(LoRaDeviceClass, that.LoRaDeviceClass) && Objects.equals(JoinEUI, that.JoinEUI) && Objects.equals(Item, that.Item) && Objects.equals(Frequency, that.Frequency) && Objects.equals(DeviceAddr, that.DeviceAddr) && Objects.equals(DeviceActivationMode, that.DeviceActivationMode) && Objects.equals(DevEUI, that.DevEUI) && Objects.equals(Cycle, that.Cycle) && Objects.equals(CustomerMaterialNo, that.CustomerMaterialNo) && Objects.equals(Connection, that.Connection) && Objects.equals(CommandVersion, that.CommandVersion) && Objects.equals(AppSKey, that.AppSKey) && Objects.equals(AppKey, that.AppKey) && Objects.equals(AES_Key, that.AES_Key);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(ZennerShortDescription, ZennerMaterialNo, WaterMeterLength, TempRange, SubDeviceNr, SerialNoFull, Scenario, RollerDigits, RadioTelegramType, RadioTechnology, RadioProtocolMode, PulseValue, PrintedSerialNo, PermanentFlow, PacketType, NwkSKey, NetworkKey, Manufacturer, MAC_Address, LoRaWAN_Version, LoRaDeviceClass, JoinEUI, Item, Frequency, DeviceAddr, DeviceActivationMode, DevEUI, Cycle, CustomerMaterialNo, Connection, CommandVersion, AppSKey, AppKey, AES_Key);
     }
 }

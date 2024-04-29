@@ -1,4 +1,4 @@
-package pl.brunata.DAO;
+package pl.brunata.xmlDAOmapper;
 
 
 import lombok.ToString;
@@ -16,7 +16,7 @@ public class Device {
 
 
     @XmlElement (name ="MainDevice")
-    public pl.brunata.DAO.MainDevice getMainDevice() {
+    public pl.brunata.xmlDAOmapper.MainDevice getMainDevice() {
         return MainDevice;
     }
 }

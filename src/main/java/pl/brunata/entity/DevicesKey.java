@@ -14,7 +14,7 @@ import java.util.Objects;
 @Builder
 @Entity
 @Table(name = "devices_details")
-public class DevicesKeys {
+public class DevicesKey {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
@@ -58,7 +58,7 @@ public class DevicesKeys {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        DevicesKeys that = (DevicesKeys) o;
+        DevicesKey that = (DevicesKey) o;
         return id == that.id && Objects.equals(zennerShortDescription, that.zennerShortDescription) && Objects.equals(zennerMaterialNo, that.zennerMaterialNo) && Objects.equals(waterMeterLength, that.waterMeterLength) && Objects.equals(tempRange, that.tempRange) && Objects.equals(subDeviceNr, that.subDeviceNr) && Objects.equals(serialNoFull, that.serialNoFull) && Objects.equals(scenario, that.scenario) && Objects.equals(rollerDigits, that.rollerDigits) && Objects.equals(radioTelegramType, that.radioTelegramType) && Objects.equals(radioTechnology, that.radioTechnology) && Objects.equals(radioProtocolMode, that.radioProtocolMode) && Objects.equals(pulseValue, that.pulseValue) && Objects.equals(printedSerialNo, that.printedSerialNo) && Objects.equals(permanentFlow, that.permanentFlow) && Objects.equals(packetType, that.packetType) && Objects.equals(nwkSKey, that.nwkSKey) && Objects.equals(networkKey, that.networkKey) && Objects.equals(manufacturer, that.manufacturer) && Objects.equals(MAC_Address, that.MAC_Address) && Objects.equals(loRaWAN_Version, that.loRaWAN_Version) && Objects.equals(loRaDeviceClass, that.loRaDeviceClass) && Objects.equals(joinEUI, that.joinEUI) && Objects.equals(item, that.item) && Objects.equals(frequency, that.frequency) && Objects.equals(deviceAddr, that.deviceAddr) && Objects.equals(deviceActivationMode, that.deviceActivationMode) && Objects.equals(devEUI, that.devEUI) && Objects.equals(cycle, that.cycle) && Objects.equals(customerMaterialNo, that.customerMaterialNo) && Objects.equals(connection, that.connection) && Objects.equals(commandVersion, that.commandVersion) && Objects.equals(AppSKey, that.AppSKey) && Objects.equals(AppKey, that.AppKey) && Objects.equals(AES_key, that.AES_key);
     }
 

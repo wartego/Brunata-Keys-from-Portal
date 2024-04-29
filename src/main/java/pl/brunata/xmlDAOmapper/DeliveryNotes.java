@@ -1,4 +1,4 @@
-package pl.brunata.DAO;
+package pl.brunata.xmlDAOmapper;
 
 import lombok.*;
 
@@ -20,7 +20,7 @@ public class DeliveryNotes{
         return Version;
     }
     @XmlElement (name = "DeliveryNote")
-    public pl.brunata.DAO.DeliveryNote getDeliveryNote() {
+    public pl.brunata.xmlDAOmapper.DeliveryNote getDeliveryNote() {
         return DeliveryNote;
     }
 
