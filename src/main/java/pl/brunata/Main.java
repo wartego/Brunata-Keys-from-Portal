@@ -35,29 +35,39 @@ public class Main {
         CollectAllKeys.printCountAllRows();
         createCSVFile();
         createCSVFileForAllMCIDS();
-        createKeys();
+        sendKeysToDateBaseNew();
 
 
 
     }
 
-    private static void createKeys(){
+    private static void sendKeysToDateBase(){
 
-        getListWithoutRowsInDatabase();
+  //      getListWithoutRowsInDatabase();
 
-        CollectAllKeys.allMainDevices.forEach( s -> {
-            boolean exist = false;
-            boolean existDevEUI = s.getDevEUI() == null || !s.getDevEUI().equals("") || !s.getDevEUI().isEmpty();
-            boolean existPrintedSerialNo = s.getPrintedSerialNo() == null || !s.getPrintedSerialNo().equals("") || !s.getPrintedSerialNo().isEmpty();
-            if (existDevEUI){
-                exist = devicesKeysController.existByDevEUI(s);
-            } else if (existPrintedSerialNo){
-                exist = devicesKeysController.existByPrintedSerialNo(s);
-            }
-            if (!exist){
-                devicesKeysController.create(s);
-            }
-        });
+//        CollectAllKeys.allMainDevices.forEach( s -> {
+//            boolean exist = false;
+//            boolean existDevEUI = s.getDevEUI() == null || !s.getDevEUI().equals("") || !s.getDevEUI().isEmpty();
+//            boolean existPrintedSerialNo = s.getPrintedSerialNo() == null || !s.getPrintedSerialNo().equals("") || !s.getPrintedSerialNo().isEmpty();
+//            if (existDevEUI){
+//                exist = devicesKeysController.existByDevEUI(s);
+//            } else if (existPrintedSerialNo){
+//                exist = devicesKeysController.existByPrintedSerialNo(s);
+//            }
+//            if (!exist){
+//                devicesKeysController.create(s);
+//            }
+//        });
+    }
+
+
+    private static void sendKeysToDateBaseNew(){
+        List<DevicesKey> list = new ArrayList<>();
+       if(!( list = getListWithoutRowsInDatabase()).isEmpty()){
+
+           list.forEach(devicesKeysController::create);
+       }
+
     }
     private static void createCSVFile() throws IOException {
         CsvFileWriter csvFileWriter = new CsvFileWriter();

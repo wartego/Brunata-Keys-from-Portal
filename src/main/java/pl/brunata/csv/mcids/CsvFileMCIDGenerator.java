@@ -88,7 +88,6 @@ public class CsvFileMCIDGenerator {
 
     private void saveRowsToFile(List<String[]> list, String MCID, String dateString, boolean multiplyFilesWillBe, int counter ) throws IOException {
         String path = null;
-
         if(!multiplyFilesWillBe){
             path = String.format("%s/%s/%s_%s.csv",pathToDirectores,MCID,dateString,MCID);
         } else {

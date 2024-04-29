@@ -21,6 +21,10 @@ public class DevicesKeysController {
     devicesKeysService.create(devicesKey);
   }
 
+  public void create(DevicesKey devicesKey){
+    devicesKeysService.create(devicesKey);
+  }
+
   public boolean existByDevEUI(MainDevice mainDevice){
     DevicesKey devicesKey = deviceMapper.map(mainDevice);
     return devicesKeysService.existByDevEUI(devicesKey);
