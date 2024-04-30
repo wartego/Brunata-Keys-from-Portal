@@ -1,6 +1,7 @@
 package pl.brunata.csv.mcids;
 
 import com.opencsv.CSVWriter;
+import com.opencsv.ICSVWriter;
 import lombok.NoArgsConstructor;
 import pl.brunata.xmlDAOmapper.MainDevice;
 
@@ -93,7 +94,7 @@ public class CsvFileMCIDGenerator {
         } else {
             path = String.format("%s/%s/%s_%s_v%d.csv",pathToDirectores,MCID,dateString,MCID,counter);
         }
-            CSVWriter writer = new CSVWriter(new FileWriter(path));
+            CSVWriter writer = new CSVWriter(new FileWriter(path),';', ICSVWriter.NO_QUOTE_CHARACTER);
             writer.writeAll(Collections.singleton(header));
             writer.writeAll(list);
             writer.flush();

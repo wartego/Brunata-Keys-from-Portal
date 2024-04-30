@@ -62,11 +62,17 @@ public class Main {
 
 
     private static void sendKeysToDateBaseNew(){
-        List<DevicesKey> list = new ArrayList<>();
-       if(!( list = getListWithoutRowsInDatabase()).isEmpty()){
 
-           list.forEach(devicesKeysController::create);
-       }
+       devicesKeysController.createBatch(getListWithoutRowsInDatabase());
+
+
+
+        //before (working)
+//        List<DevicesKey> list = new ArrayList<>();
+//       if(!( list = getListWithoutRowsInDatabase()).isEmpty()){
+//
+//           list.forEach(devicesKeysController::create);
+//       }
 
     }
     private static void createCSVFile() throws IOException {
@@ -93,10 +99,11 @@ public class Main {
 
 
         List<DevicesKey> listKeysFromFiles = new ArrayList<>(CollectAllKeys.allMainDevices.stream().map(i -> new DeviceMapper().map(i)).toList());
-        List<DevicesKey> listFromDatabase = devicesKeysController.getAllRows();
 
-         listFromDatabase.forEach(i-> i.setId(0));
-         listKeysFromFiles.removeAll(listFromDatabase);
+        //three lines was  (working)
+        //  List<DevicesKey> listFromDatabase = devicesKeysController.getAllRows();
+       //  listFromDatabase.forEach(i-> i.setId(0));
+       //  listKeysFromFiles.removeAll(listFromDatabase);
 
 
         return  listKeysFromFiles;

@@ -25,6 +25,10 @@ public class DevicesKeysController {
     devicesKeysService.create(devicesKey);
   }
 
+  public void createBatch(List<DevicesKey> devicesKeys){
+    devicesKeysService.createBatch(devicesKeys);
+  }
+
   public boolean existByDevEUI(MainDevice mainDevice){
     DevicesKey devicesKey = deviceMapper.map(mainDevice);
     return devicesKeysService.existByDevEUI(devicesKey);

@@ -16,10 +16,36 @@ public class DeviceKeysDAO {
         try(Session session = HibernateUtils.openSession()){
             Transaction transaction = session.beginTransaction();
             //session.
+
             session.persist(devicesKey);
             transaction.commit();
         }
     }
+
+
+    public void createBatch(List<DevicesKey> devicesKey){
+        try(Session session = HibernateUtils.openSession()){
+            int batchSize = 100;
+            Transaction transaction = session.beginTransaction();
+
+           for(DevicesKey row : devicesKey){
+               int counter = 1;
+               session.save(row);
+               if(counter % batchSize == 0){
+                   session.flush();
+                   session.clear();
+               } else if (counter == devicesKey.size() - 1){
+                   session.flush();
+                   session.clear();
+               }
+               counter++;
+           }
+            transaction.commit();
+        }
+    }
+
+
+
 
     public boolean existByPrintedSerial(DevicesKey devicesKey){
 
@@ -40,6 +66,7 @@ public class DeviceKeysDAO {
             query.setParameter("devEUI", devicesKey.getDevEUI());
             List<DevicesKey> key = query.getResultList();
             //System.out.println(key.toString());
+            session.flush();
             return !key.isEmpty();
         }
     }

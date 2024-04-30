@@ -1,6 +1,7 @@
 package pl.brunata.csv;
 
 import com.opencsv.CSVWriter;
+import com.opencsv.ICSVWriter;
 import pl.brunata.xmlDAOmapper.MainDevice;
 
 
@@ -21,7 +22,8 @@ public class CsvFileWriter {
     public void csvWriterToFile(List<MainDevice> mainDevices) throws IOException {
      String dateString = String.valueOf(LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMddHHmmss")));
 
-        CSVWriter writer = new CSVWriter(new FileWriter("src/main/resources/csv_output/keys_"+dateString+".csv"));
+        CSVWriter writer = new CSVWriter(new FileWriter("src/main/resources/csv_output/keys_"+dateString+".csv"),';',ICSVWriter.NO_QUOTE_CHARACTER);
+
 
 
         //convert List<MainDevices> into List<String[]>

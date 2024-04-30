@@ -14,6 +14,10 @@ public class DevicesKeysService {
     public void create(DevicesKey devicesKey){
         deviceKeysDAO.create(devicesKey);
     }
+
+    public void createBatch(List<DevicesKey> devicesKeys){
+        deviceKeysDAO.createBatch(devicesKeys);
+    }
     public boolean existByDevEUI(DevicesKey devicesKey){
         return deviceKeysDAO.existByDevEUI(devicesKey);
     }
