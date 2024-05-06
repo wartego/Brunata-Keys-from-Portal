@@ -25,12 +25,12 @@ public class DeviceKeysDAO {
 
     public void createBatch(List<DevicesKey> devicesKey){
         try(Session session = HibernateUtils.openSession()){
-            int batchSize = 100;
+            int batchSize = 3000;
             Transaction transaction = session.beginTransaction();
+            int counter =1;
+            for(DevicesKey row : devicesKey){
 
-           for(DevicesKey row : devicesKey){
-               int counter = 1;
-               session.save(row);
+               session.persist(row);
                if(counter % batchSize == 0){
                    session.flush();
                    session.clear();
@@ -39,8 +39,10 @@ public class DeviceKeysDAO {
                    session.clear();
                }
                counter++;
+
            }
             transaction.commit();
+
         }
     }
 
